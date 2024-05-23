@@ -331,8 +331,17 @@ do {
 
 console.log(' Final del bucle do-while');
 
+var years = 30;
 
-          // EJERCICIO EXTRA //
+do{
+  alert("Solo si es diferente a 20");
+  years--;
+}while(years > 25);
+
+
+
+// EJERCICIO EXTRA //
+
           for (var i_2 = 10; i_2 <= 55; i_2++) {
             if (i_2 % 2 === 0) {
                 if (i_2 === 16) {
